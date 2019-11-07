@@ -16,5 +16,7 @@ export class FooterComponent implements OnInit {
     this.example.bacColor.next(this.footer);
     console.log(this.example.bacColor.getValue());
   }
-
+  onLogOut(){
+    this.example.logOut();
+  }
 }

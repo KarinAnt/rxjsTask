@@ -1,0 +1,14 @@
+div{
+    width: 100%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    padding: 20px;
+    margin:0 auto;
+    justify-content: space-evenly;
+    width: 50%;
+    background-color: darkslategrey;
+    color: white;
+    font-size: 17px;
+}

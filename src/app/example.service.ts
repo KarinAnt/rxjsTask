@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { from, Subject, BehaviorSubject } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
+import { switchMap, filter } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'

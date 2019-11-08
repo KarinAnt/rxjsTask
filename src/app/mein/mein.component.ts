@@ -20,9 +20,10 @@ export class MeinComponent implements OnInit {
     //   switchMap(data => Object.entries(data).filter(([key,value]) => key=="reg.general.document_proccessing_error"))
     // ).subscribe(x=> this.urll = x);
     // example.errorurl().subscribe(x=> this.errorUrl = x);
-    this.errorUrl = example.errorurl();
+   example.errorurl();
+    this.errorUrl = example.errora; 
     // this.errorUrl.subscribe(x => this.e = x);
-    console.log(this.errorUrl);
+    console.log(example.errora, 'thiserror');
    }
 
   ngOnInit() {
